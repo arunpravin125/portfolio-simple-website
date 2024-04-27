@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Young Serif", serif;        
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: beige;
+    padding: 20px;
+}
+.section-one__contact{
+    background-color:red;
+    color:white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-one__name{
+    font-size: 40px;
+}
+.section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 10px;
+    
+}
+.section-two__decription,.section-three__description,.section-four__description,.section-five__description{
+    margin-top: 10px;
+    
+}
+.section-five{
+    background-color: black;
+    color: antiquewhite;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    
+}
+.section-five__title a{
+    color:skyblue
+}
+.section-three li,.section-four li{
+    list-style: none;
+}
+.section-three{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+    height: 200px;
+    display:inline-block;
+    color: black;
+    /* margin-bottom: 20px; */
+    vertical-align: top;
+    
+    
+}
+.section-four{
+    background-color: coral;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 20px;
+    vertical-align: top;
+    height: 200px;
+}
